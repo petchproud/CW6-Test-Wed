@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>My Website</h1>
+    </header>
+
+    <nav class="top-nav">
+        <ul>
+            <li><a href="https://www.kmutnb.ac.th/">KMUTNB</a></li>
+            <li><a href="http://202.44.47.45/fitm/">FITM</a></li>
+            <li><a href="https://www.facebook.com/IT.KMUTNB/?locale=th_TH">IT DEPT</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button>Go</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+            <h2>Register Member</h2>
+            <p>Please fill in the form below to create an account.</p>
+
+            <form class="register-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Choose a username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. 0812345678">
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="register-btn">Register</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </main>
+
+        <aside class="sidebar">
+            <nav class="side-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+
+    <footer class="main-footer">
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
